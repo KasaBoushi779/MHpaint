@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>MHpaint</title>
+    </head>
+    <body style="margin:0px">
+        <canvas onmousemove="draw(event)" id="canvas" width="1000" height="600" 
+        style="border:1px solid #000000;"></canvas>
+        <script type="text/javascript" src="CreateTaskScript.js"></script>
+        <!--Here's the buttons for changing everything-->
+        <br>
+        <button type="button" onclick="setBlack()">Black</button>
+        <button type="button" onclick="setWhite()">White</button>
+        <button type="button" onclick="setBlue()">Blue</button>
+        <button type="button" onclick="setRed()">Red</button>
+        <button type="button" onclick="setYellow()">Yellow</button>
+        <button type="button" onclick="setGreen()">Green</button>
+        <button type="button" onclick="setPurple()">Purple</button>
+        <button type="button" onclick="setOrange()">Orange</button>
+        <button type="button" onclick="customColor()">Custom Color</button>
+        <button type="button" onclick="changeGridSize()">Change Grid Size</button>
+        <button type="button" onclick="removeGrid()">Remove Grid</button>
+        <button type="button" onclick="restoreGrid()">Restore Grid</button>
+        <br>
+        <td>WARNING: Scrolling will mess up canvas drawing</td>
+    </body>
+</html>
